@@ -1,0 +1,666 @@
+
+
+body
+{
+	font-family: 'Montserrat', sans-serif ;
+	scroll-behavior: smooth ;
+    padding-top: 80px; 
+   	background-color: #e8ecfa ; 	
+}
+
+.navbar-brand
+{
+	margin-left: 5% ;
+}
+.navbar .navbar-collapse 
+{
+	margin-right: 7% ; 
+}
+
+.navbar .navbar-collapse .navbar-nav li a, h2, h5
+{
+	font-weight: 800 ;
+}
+
+.liners {
+    font-size: 1.8rem;
+    margin-top: 22%;
+    text-transform: capitalize;
+}
+.nav-item
+{
+	padding: 0 5px;	
+}
+
+ nav
+{
+	background-color: #e8ecfa ;
+}
+
+
+/*nav 
+{
+	  background: white; 
+}
+*/
+.logo-img 
+{
+/*	margin-top: 5% ; */
+	width: 20%;
+	transition: 0.4s;
+}
+
+
+#head
+{
+  background-image: -webkit-linear-gradient(90deg, #A683E3 30%, #E4E9FD 70%);
+  min-height: 300px;
+}
+
+a {
+    color: black;
+}
+
+
+
+#heads 
+{
+	background-image: -webkit-linear-gradient(90deg, #3333ff 10%, #E4E9FD 90%);
+  min-height: 500px;
+
+}
+
+.testimonial-text
+{
+	font-size: 3rem ;
+	line-height: 1.5 ;
+}
+.carousel-item
+{
+		padding: 7% 1%;
+}
+.testimonial-carousel .carousel-control::before {
+    color: black;
+}
+.testimonial-carousel .carousel-control {
+  opacity: unset;
+}
+.pib
+{
+	width: 100% ;
+}
+.data 
+{
+	height: 9rem  ; 
+	width: 21rem ; 
+	margin: auto;
+
+}
+
+.data-s
+{
+		height: 300px ; 
+	width: 300px ; 
+	margin: 0 auto;
+}
+
+.data-mob
+{
+		height: 370px ; 
+	width: 300px ; 
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px){
+	a.navbar-brand {
+  		display: contents;
+		}
+
+.sv-div {
+    padding: 8%;
+    margin: 4%;
+    width: 21rem;
+    
+    height: 24rem;
+}
+.sp-div {
+    padding: 8%;
+    margin: 4%;
+    width: 21rem;
+    
+    height: 24rem;
+}
+
+	/*.data
+	{
+		height: 9rem ;
+		width: 27rem;
+	}*/
+	/*body 
+	{
+		text-align: center ;
+	}*/
+img.logo-img.inner-logo-img
+{
+	width: 60% ;
+}
+.navbar-brand
+{
+	margin-left: auto ;
+}
+.navbar .navbar-collapse 
+{
+	margin-right: auto ; 
+}}
+
+
+.container-fluid
+{
+	padding: 2% 12% ;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+@media only screen and (min-width: 960px) {
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.7em;
+  }
+}
+.navbar .navbar-nav .nav-link {
+  position: relative;
+}
+.navbar .navbar-nav .nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #000000;
+  color: transparent;
+  width: 0%;
+  content: '';
+  height: 3px;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+
+#about 
+{
+
+	background-image: -webkit-linear-gradient(90deg, #E4E9FD 30%, #A683E3 70%);
+	 /* min-height: 600px;*/
+} 
+
+.about
+{		text-align: left; 
+		border:7px solid #000;
+		padding: 1% ;
+		    margin-top: 10%;
+}
+
+.abt-img
+{
+	width: 80% ;
+	padding: 10% ;
+}
+
+.abt-logo-img
+{
+	text-align: center ;
+	padding: 5% ;
+}
+
+.abt-logo-img .logo-img
+{
+	width: 30%
+}
+
+.ab2-img.abt-img
+{
+	width: 40% ;
+}
+
+.ab1, .ab2 
+{
+	padding-top: 4% ;
+}
+
+footer
+{
+	background-color: #E4E9FD ;
+}
+
+.footer-d 
+{
+	margin-top:2% ;
+	color: black ; 
+	padding-left: 10% ;
+	font-size:0.8rem;
+
+}
+
+
+.footer-data
+{
+  padding: 2% 12% 2% ;
+  text-align: left;
+  line-height: 0.8em;  
+}
+
+.foot-i, .btn.foot-i
+{
+  padding: 10px 10px ;
+/*  font-size:1.5em ;*/
+}
+
+ 
+
+#special-services{
+	background-image: -webkit-linear-gradient(90deg, #3fe0d0 20%, #E4E9FD 80%);
+	  min-height: 600px;
+	  text-align: center ;
+
+}
+
+#our-clients{
+	background-image: -webkit-linear-gradient(90deg, #E4E9FD 10%, #3fe0d0 90%);
+	/*  min-height: 600px;
+*/	 text-align: center ;
+	 padding-top: 7% ;
+}
+
+
+.press-i
+{
+	width: 15% ;
+	margin: 20px 20px 50px;
+ }
+
+
+
+
+ .sp-div
+{
+	padding: 1%;
+    margin: 5%; 
+    width: 19rem; height:22rem;
+	text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+    background-color:  black ; 
+    color: white ;
+}
+
+
+.sp-div:hover
+{
+	margin-top: -10px;
+}
+
+.sii
+{
+	width: 90%;
+}
+
+.si
+{
+	width: 13em ;
+	height: 7em ;
+	background-color: white ;
+	text-align: center ;
+	margin:auto; 
+	padding: 2%  ;
+}
+
+.dell
+{
+	margin-top :15% ; 
+} 
+
+.cl 
+{
+	width: 60% ;
+}
+.foot-i-first
+{
+	padding:10px 10px 10px 0px;  
+}
+.foot-l
+{
+	padding:1%;
+	text-align: center;
+}
+
+.navbar-toggler>.close {
+    display:inline;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
+}
+
+.s-heading
+{
+	font-size: 2.5rem ;
+	font-weight: 800 ; 
+/*	color: white ;*/
+}
+
+#service-body 
+{
+
+	background-image: -webkit-linear-gradient(90deg, #E4E9FD 20%,  #3333ff 80%);
+  	min-height: 1000px;
+}
+
+
+ .sv-div
+{
+    width: 18rem; height:25rem;
+    background-color:  white ; 
+    color: black ;
+}
+@media only screen and (max-width: 560px){
+.sv-div {
+    padding: 8%;
+    margin: 4%;
+    width: 15rem;
+    height: 24rem;
+}
+.sp-div {
+    padding: 8%;
+    /*margin-left: 12%;*/
+     width: 15rem; 
+    height: 24rem;
+}
+.logo-img
+	{
+		width:35%;
+	}
+
+
+.data-s 
+{
+	margin-top: -20% ;
+}
+.robop
+{
+margin-top: -40% ;	
+}
+}
+.sv-div:hover
+{
+	background-color: black ; 
+	color: white;
+	transition: 0.2s ; 
+}
+
+.mb
+{
+	width : 30% ;
+}
+
+
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+}
+
+
+i.fa-slack
+{
+	font-size: 1.2rem ; 
+	font-weight: 600; 
+}
+
+#anim 
+{
+	max-width: 800px ; 
+}
+
+#traits 
+{
+	background-image: -webkit-linear-gradient(90deg, #E4E9FD 30%, #FFA500 70%);
+	 min-height: 400px;
+} 
+
+.mrgt{
+	margin-top:  -5% ;
+}
+
+section.mrgt1{
+	padding-top: 5% ;
+}
+.mrgtw{
+	margin-top: 25% ;
+}
+
+.mgtt 
+{
+	margin-top: 10% ;
+}
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://flevix.com/wp-content/uploads/2020/01/Bounce-Bar-Preloader-1.gif) center no-repeat #fff;
+	/*background: url(https://i.gifer.com/XOsX.gif) center no-repeat #fff;*/
+}	
+
+
+
+.ss-div
+{
+	background-color: #000 ;
+	color:#fff;
+}
+
+#s-head
+{
+	background-image: -webkit-linear-gradient(90deg, #A683E3 30%, #E4E9FD 70%);
+  min-height: 400px;
+
+}
+
+.ssr
+{
+  border-left: 3px solid #000;
+  padding-left: 1% ;
+}
+
+		.user_card {
+			height: 400px;
+			width: 350px;
+			margin-top: 3%;
+			margin-bottom: auto;
+			background: #f8f1f1;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+
+		}
+		.brand_logo_container {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: #60a3bc;
+			padding: 10px;
+			text-align: center;
+		}
+		.brand_logo {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			border: 2px solid white;
+		}
+		.form_container {
+			margin-top: 100px;
+		}
+		.login_btn {
+			width: 100%;
+			background: #00b1f7 !important;
+			color: white !important;
+		}
+		.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.login_container {
+			padding: 0 2rem;
+		}
+		.input-group-text {
+			background: #00b1f7 !important;
+			color: white !important;
+			border: 0 !important;
+			border-radius: 0.25rem 0 0 0.25rem !important;
+		}
+		.input_user,
+		.input_pass:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+			background-color: #00b1f7 !important;
+		}
+
+
+
+/*		register css*/
+
+
+.reg_card {
+			height: 750px;
+			width: 420px;
+			margin-top: 3%;
+			margin-bottom: auto;
+			background: #f8f1f1;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+
+		}
+		.form_container {
+			margin-top: 100px;
+		}
+		.signup_btn {
+			width: 100%;
+			
+			color: white !important;
+		}
+		.signup_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.signup_container {
+			padding: 0 2rem;
+		}
+
+		.input_g:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+
+		.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+			background-color: #00b1f7 !important;
+		}
+
+		.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}.shop-button{
+			margin: 5% auto 0% ; 
+			width: 30% ;
+		}
+
+
+#l1-body
+{
+		background-image: -webkit-linear-gradient(90deg, #E4E9FD 20%,  #3333ff 80%);
+  	min-height: 300px;	
+}
+
+p{
+	/*text-align: justify;*/
+}
+
+
+.container
+{
+	padding: 0% 5% ;
+}
+
+.data-img
+{
+	margin-top: -11% ;
+}
+
+.robop
+{
+ margin-top: -7% ;	
+}
+
+.hline
+{
+
+  border-style: none;
+  border-top-style: dotted ;
+  width: 10%;
+  border-width: 5px ;
+  border-color: #000 ;
+  margin : 20px auto;
+
+}
+
+
+.sbd p, .sbd li
+{
+line-height: 1.8rem ; 
+font-size: 1.2rem ;
+/*font-weight: 600 ;*/
+}

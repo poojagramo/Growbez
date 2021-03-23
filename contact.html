@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+            <!--  font-awesome  -->
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<!--    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"> -->
+
+   <link rel="icon" href="images/favicon.ico">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Ubuntu&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+   <title>Contact us</title>
+
+   <style>
+  .reg_card {
+      height: 500px;
+      width: 420px;
+    }
+</style>
+
+  </head>
+  <body>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<div class="se-pre-con"></div>
+
+        <header>
+      <nav class="navbar fixed-top navbar-expand-md navbar-light scrolling-navbar">
+
+        <a class="navbar-brand"><img class="logo-img" src="images/Growbez.svg" alt="logo-img"></a>
+<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#Sticky-nav" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="my-1 mx-2 close">X</span>
+       <span class="navbar-toggler-icon"></span>
+    </button>
+              <div class="collapse navbar-collapse" id="Sticky-nav">
+                <ul class="navbar-nav ml-auto">
+      <!--ml-auto -->
+                    <li class="nav-item" > 
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact </a>
+                    </li>
+                    <li class="nav-item" > 
+                        <a class="nav-link" href="career.html">Career</a>
+                    </li>
+                  </ul>
+              </div>
+      </nav>
+    </header>
+
+<section id="heads">
+             <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            
+              <h2 class="s-heading mrgtw">Contact us</h2><br><br>
+          </div>
+                <div class="col-lg-6">
+                     <div class="container mrgtw">
+    <div class="d-flex justify-content-center">
+      <div class="reg_card">
+        <div class="d-flex justify-content-center">
+          <div class="brand_logo_container">
+            <img src="images/user.png" class="brand_logo" alt="Logo">
+          </div>
+        </div>
+        <div class="d-flex justify-content-center form_container">
+          <form action="mailContact.php"   method="post">
+            <div class="input-group mb-3">
+              <input type="text" name="visitor_name" class="form-control input_g" value=""  id="name" placeholder="Enter Your Name" pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+
+            
+              <div class="input-group mb-3">
+              <input type="email" name="visitor_email" class="form-control input_g" value="" id="cmail" placeholder="Enter Your Email ID" required>
+
+            </div>
+
+            <div class="input-group mb-3">
+              <input type="password" name="visitor_email_pass" class="form-control input_g" value="" id="" placeholder="Enter Your Gmail Password" required>
+
+            </div>
+
+            <div class="input-group mb-3">
+              <input type="text" name="email_title" class="form-control input_g" value="" id="title" placeholder="Title" required>
+
+            </div>
+
+        <div class="form-group mb-2">
+        <label for="exampleFormControlTextarea1">Write your message</label>
+            <textarea class="form-control input_g" id="address" name="visitor_message" rows="3" required></textarea> 
+        </div>
+
+              <div class="d-flex justify-content-center mt-3 signup_container">
+          <button type="submit" name="button" class="btn btn-primary signup_btn">Send Message</button>
+           </div>
+          </form>
+        </div>
+    
+      </div>
+    </div>
+    </div>
+    </div>
+</div>
+                </div>
+        </div>
+      </div>
+
+</section>
+
+<section id="l1-body">
+    <!-- <div class="container">
+    <div class="d-flex justify-content-center">
+      <div class="reg_card">
+        <div class="d-flex justify-content-center">
+          <div class="brand_logo_container">
+            <img src="images/user.png" class="brand_logo" alt="Logo">
+          </div>
+        </div>
+        <div class="d-flex justify-content-center form_container">
+          <form action="contactus.php"   method="post">
+            <div class="input-group mb-3">
+              <input type="text" name="visitor_name" class="form-control input_g" value=""  id="name" placeholder="your name" pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+
+            
+                <div class="input-group mb-3">
+              <input type="email" name="visitor_email" class="form-control input_g" value="" id="cmail" placeholder="email" required>
+
+            </div>
+
+            <div class="input-group mb-3">
+              <input type="text" name="email_title" class="form-control input_g" value="" id="title" placeholder="title" required>
+
+            </div>
+
+        <div class="form-group mb-2">
+        <label for="exampleFormControlTextarea1">Write your message</label>
+            <textarea class="form-control input_g" id="address" name="visitor_message" rows="3" required></textarea> 
+        </div>
+
+              <div class="d-flex justify-content-center mt-3 signup_container">
+          <button type="submit" name="button" class="btn btn-primary signup_btn">Send Message</button>
+           </div>
+          </form>
+        </div>
+    
+      </div>
+    </div>
+    </div>
+    </div>
+</div> -->
+</section>
+
+
+<footer id="footer mx-auto" class="footer-data">
+  <hr> 
+  <div class="row mx-auto">
+    
+    <div class="col-md-4 footer-d">
+    <i class="foot-i-first fas fa fa-slack" aria-hidden="true">Contact us </i><br>
+    <!-- <i class="foot-i-first  fas fa-phone-square-alt"></i> --><p>+91-9021011106 / 8329131012</p>
+    <p>Address: Airport Road, </p><p>Kolhapur Pin- 416004.</p><p>info.growbez@gmail.com</p>
+    </div>
+
+    <div class="col-md-4 footer-d">
+    <i class="foot-i-first fas fa fa-slack" aria-hidden="true">Services </i>
+    <br>
+    <p>RPA</p>
+    <p>Web Development</p>
+    <p>Artificial Intelliengce</p>
+    <p>Dell Boomi</p>
+    </div>
+
+    <div class="col-md-4 footer-d">
+    <i class="foot-i-first fas fa fa-slack" aria-hidden="true">Quick links</i>
+    <br>
+    <p><a href="#">FAQ</a></p>
+    <p><a href="#">Privacy Policy</a></p>
+    <p><a href="#">Services</a></p>
+    <p><a href="#">Know More</a></p>
+    </div>
+
+    <div class="col-lg-12 foot-l">
+    <a class="btn" href ="#"><i class="foot-i  fab fa-facebook-square"></i></a>
+    <a class="btn" href ="#"><i class="foot-i fab fa-instagram"></i></a>
+    <a class="btn" href ="#"><i class="foot-i fab fa-twitter"></i></a>
+    <a class="btn" href ="mailto:info.growbez@gmail.com"><i class="foot-i far fa-envelope"></i></a>
+     <h6>©Copyright 2021 GrowBEZ Technologies</h6>
+    </div>
+
+  </div>
+  </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>
+  $(window).load(function() {
+    $(".se-pre-con").fadeOut("slow");
+  });
+  </script>
+</body>
+</html>
